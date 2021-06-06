@@ -1,0 +1,1325 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A2 23386 16535
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L keebio:Elite-C U1
+U 1 1 60B69269
+P 9225 6000
+F 0 "U1" H 9225 6837 60  0000 C CNN
+F 1 "Elite-C" H 9225 6731 60  0000 C CNN
+F 2 "Keebio-Parts:Elite-C-ZigZag" V 10275 3500 60  0001 C CNN
+F 3 "" V 10275 3500 60  0001 C CNN
+	1    9225 6000
+	-1   0    0    1   
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K10
+U 1 1 60B8E226
+P 10125 3400
+F 0 "K10" H 10125 3633 60  0000 C CNN
+F 1 "KEYSW" H 10125 3300 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 10125 3400 60  0001 C CNN
+F 3 "" H 10125 3400 60  0000 C CNN
+	1    10125 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K11
+U 1 1 60B8F51A
+P 10125 3725
+F 0 "K11" H 10125 3958 60  0000 C CNN
+F 1 "KEYSW" H 10125 3625 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 10125 3725 60  0001 C CNN
+F 3 "" H 10125 3725 60  0000 C CNN
+	1    10125 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K12
+U 1 1 60B8FD55
+P 10125 4050
+F 0 "K12" H 10125 4283 60  0000 C CNN
+F 1 "KEYSW" H 10125 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 10125 4050 60  0001 C CNN
+F 3 "" H 10125 4050 60  0000 C CNN
+	1    10125 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K14
+U 1 1 60B907CA
+P 10975 3400
+F 0 "K14" H 10975 3633 60  0000 C CNN
+F 1 "KEYSW" H 10975 3300 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 10975 3400 60  0001 C CNN
+F 3 "" H 10975 3400 60  0000 C CNN
+	1    10975 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K15
+U 1 1 60B91CCB
+P 10975 3725
+F 0 "K15" H 10975 3958 60  0000 C CNN
+F 1 "KEYSW" H 10975 3625 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 10975 3725 60  0001 C CNN
+F 3 "" H 10975 3725 60  0000 C CNN
+	1    10975 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K16
+U 1 1 60B92CEA
+P 10975 4050
+F 0 "K16" H 10975 4283 60  0000 C CNN
+F 1 "KEYSW" H 10975 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 10975 4050 60  0001 C CNN
+F 3 "" H 10975 4050 60  0000 C CNN
+	1    10975 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K9
+U 1 1 60B94F87
+P 9300 4350
+F 0 "K9" H 9300 4583 60  0000 C CNN
+F 1 "KEYSW" H 9300 4250 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 9300 4350 60  0001 C CNN
+F 3 "" H 9300 4350 60  0000 C CNN
+	1    9300 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K13
+U 1 1 60B95F33
+P 10125 4350
+F 0 "K13" H 10125 4583 60  0000 C CNN
+F 1 "KEYSW" H 10125 4250 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 10125 4350 60  0001 C CNN
+F 3 "" H 10125 4350 60  0000 C CNN
+	1    10125 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K17
+U 1 1 60B97A47
+P 10975 4350
+F 0 "K17" H 10975 4583 60  0000 C CNN
+F 1 "KEYSW" H 10975 4250 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 10975 4350 60  0001 C CNN
+F 3 "" H 10975 4350 60  0000 C CNN
+	1    10975 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K8
+U 1 1 60B8D78E
+P 9300 4050
+F 0 "K8" H 9300 4283 60  0000 C CNN
+F 1 "KEYSW" H 9300 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 9300 4050 60  0001 C CNN
+F 3 "" H 9300 4050 60  0000 C CNN
+	1    9300 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K7
+U 1 1 60B8CBDE
+P 9300 3725
+F 0 "K7" H 9300 3958 60  0000 C CNN
+F 1 "KEYSW" H 9300 3625 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 9300 3725 60  0001 C CNN
+F 3 "" H 9300 3725 60  0000 C CNN
+	1    9300 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K6
+U 1 1 60B8B7E6
+P 9300 3400
+F 0 "K6" H 9300 3633 60  0000 C CNN
+F 1 "KEYSW" H 9300 3300 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 9300 3400 60  0001 C CNN
+F 3 "" H 9300 3400 60  0000 C CNN
+	1    9300 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K4
+U 1 1 60B88C1A
+P 8475 3725
+F 0 "K4" H 8475 3958 60  0000 C CNN
+F 1 "KEYSW" H 8475 3625 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 8475 3725 60  0001 C CNN
+F 3 "" H 8475 3725 60  0000 C CNN
+	1    8475 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K3
+U 1 1 60B84C49
+P 8475 3400
+F 0 "K3" H 8475 3633 60  0000 C CNN
+F 1 "KEYSW" H 8475 3300 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 8475 3400 60  0001 C CNN
+F 3 "" H 8475 3400 60  0000 C CNN
+	1    8475 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K5
+U 1 1 60B840DA
+P 8475 4050
+F 0 "K5" H 8475 4283 60  0000 C CNN
+F 1 "KEYSW" H 8475 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 8475 4050 60  0001 C CNN
+F 3 "" H 8475 4050 60  0000 C CNN
+	1    8475 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K2
+U 1 1 60B82FFD
+P 7625 4025
+F 0 "K2" H 7625 4258 60  0000 C CNN
+F 1 "KEYSW" H 7625 3925 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 7625 4025 60  0001 C CNN
+F 3 "" H 7625 4025 60  0000 C CNN
+	1    7625 4025
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K1
+U 1 1 60B80321
+P 7625 3725
+F 0 "K1" H 7625 3958 60  0000 C CNN
+F 1 "KEYSW" H 7625 3625 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 7625 3725 60  0001 C CNN
+F 3 "" H 7625 3725 60  0000 C CNN
+	1    7625 3725
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K?1
+U 1 1 60B7E748
+P 7625 3400
+F 0 "K?1" H 7625 3633 60  0000 C CNN
+F 1 "KEYSW" H 7625 3300 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 7625 3400 60  0001 C CNN
+F 3 "" H 7625 3400 60  0000 C CNN
+	1    7625 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K18
+U 1 1 60BAB102
+P 15075 3425
+F 0 "K18" H 15075 3658 60  0000 C CNN
+F 1 "KEYSW" H 15075 3325 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 15075 3425 60  0001 C CNN
+F 3 "" H 15075 3425 60  0000 C CNN
+	1    15075 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K19
+U 1 1 60BAE8C7
+P 15075 3750
+F 0 "K19" H 15075 3983 60  0000 C CNN
+F 1 "KEYSW" H 15075 3650 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 15075 3750 60  0001 C CNN
+F 3 "" H 15075 3750 60  0000 C CNN
+	1    15075 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K20
+U 1 1 60BAF242
+P 15075 4050
+F 0 "K20" H 15075 4283 60  0000 C CNN
+F 1 "KEYSW" H 15075 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 15075 4050 60  0001 C CNN
+F 3 "" H 15075 4050 60  0000 C CNN
+	1    15075 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K21
+U 1 1 60BAFAE1
+P 15075 4350
+F 0 "K21" H 15075 4583 60  0000 C CNN
+F 1 "KEYSW" H 15075 4250 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 15075 4350 60  0001 C CNN
+F 3 "" H 15075 4350 60  0000 C CNN
+	1    15075 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K22
+U 1 1 60BB0443
+P 15950 3425
+F 0 "K22" H 15950 3658 60  0000 C CNN
+F 1 "KEYSW" H 15950 3325 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 15950 3425 60  0001 C CNN
+F 3 "" H 15950 3425 60  0000 C CNN
+	1    15950 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K23
+U 1 1 60BB165B
+P 15950 3750
+F 0 "K23" H 15950 3983 60  0000 C CNN
+F 1 "KEYSW" H 15950 3650 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 15950 3750 60  0001 C CNN
+F 3 "" H 15950 3750 60  0000 C CNN
+	1    15950 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K24
+U 1 1 60BB2017
+P 15950 4050
+F 0 "K24" H 15950 4283 60  0000 C CNN
+F 1 "KEYSW" H 15950 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 15950 4050 60  0001 C CNN
+F 3 "" H 15950 4050 60  0000 C CNN
+	1    15950 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K25
+U 1 1 60BB39FA
+P 15950 4350
+F 0 "K25" H 15950 4583 60  0000 C CNN
+F 1 "KEYSW" H 15950 4250 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 15950 4350 60  0001 C CNN
+F 3 "" H 15950 4350 60  0000 C CNN
+	1    15950 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K26
+U 1 1 60BB40A5
+P 16800 3425
+F 0 "K26" H 16800 3658 60  0000 C CNN
+F 1 "KEYSW" H 16800 3325 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 16800 3425 60  0001 C CNN
+F 3 "" H 16800 3425 60  0000 C CNN
+	1    16800 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K27
+U 1 1 60BB5510
+P 16800 3750
+F 0 "K27" H 16800 3983 60  0000 C CNN
+F 1 "KEYSW" H 16800 3650 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 16800 3750 60  0001 C CNN
+F 3 "" H 16800 3750 60  0000 C CNN
+	1    16800 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K28
+U 1 1 60BB5C97
+P 16800 4050
+F 0 "K28" H 16800 4283 60  0000 C CNN
+F 1 "KEYSW" H 16800 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 16800 4050 60  0001 C CNN
+F 3 "" H 16800 4050 60  0000 C CNN
+	1    16800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K29
+U 1 1 60BB6388
+P 16800 4350
+F 0 "K29" H 16800 4583 60  0000 C CNN
+F 1 "KEYSW" H 16800 4250 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 16800 4350 60  0001 C CNN
+F 3 "" H 16800 4350 60  0000 C CNN
+	1    16800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K30
+U 1 1 60BB6A15
+P 17650 3425
+F 0 "K30" H 17650 3658 60  0000 C CNN
+F 1 "KEYSW" H 17650 3325 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 17650 3425 60  0001 C CNN
+F 3 "" H 17650 3425 60  0000 C CNN
+	1    17650 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K31
+U 1 1 60BB7A39
+P 17650 3750
+F 0 "K31" H 17650 3983 60  0000 C CNN
+F 1 "KEYSW" H 17650 3650 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 17650 3750 60  0001 C CNN
+F 3 "" H 17650 3750 60  0000 C CNN
+	1    17650 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K32
+U 1 1 60BB8341
+P 17650 4050
+F 0 "K32" H 17650 4283 60  0000 C CNN
+F 1 "KEYSW" H 17650 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 17650 4050 60  0001 C CNN
+F 3 "" H 17650 4050 60  0000 C CNN
+	1    17650 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K33
+U 1 1 60BBA058
+P 18500 3425
+F 0 "K33" H 18500 3658 60  0000 C CNN
+F 1 "KEYSW" H 18500 3325 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 18500 3425 60  0001 C CNN
+F 3 "" H 18500 3425 60  0000 C CNN
+	1    18500 3425
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K34
+U 1 1 60BBB8BA
+P 18500 3750
+F 0 "K34" H 18500 3983 60  0000 C CNN
+F 1 "KEYSW" H 18500 3650 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 18500 3750 60  0001 C CNN
+F 3 "" H 18500 3750 60  0000 C CNN
+	1    18500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L keyboard_parts:KEYSW K35
+U 1 1 60BBC0BE
+P 18500 4050
+F 0 "K35" H 18500 4283 60  0000 C CNN
+F 1 "KEYSW" H 18500 3950 60  0001 C CNN
+F 2 "Keebio-Parts:Kailh-PG1350-1u-NoLED" H 18500 4050 60  0001 C CNN
+F 3 "" H 18500 4050 60  0000 C CNN
+	1    18500 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 3025 7925 3400
+Wire Wire Line
+	7925 3400 7925 3725
+Connection ~ 7925 3400
+Wire Wire Line
+	7925 3725 7925 4025
+Connection ~ 7925 3725
+Wire Wire Line
+	8775 4050 8775 3725
+Wire Wire Line
+	8775 3400 8775 3725
+Connection ~ 8775 3725
+Wire Wire Line
+	8775 3400 8775 3025
+Connection ~ 8775 3400
+Wire Wire Line
+	9600 4350 9600 4050
+Wire Wire Line
+	9600 3725 9600 4050
+Connection ~ 9600 4050
+Wire Wire Line
+	9600 3725 9600 3400
+Connection ~ 9600 3725
+Wire Wire Line
+	9600 3400 9600 3025
+Wire Wire Line
+	9600 3025 9625 3025
+Connection ~ 9600 3400
+Wire Wire Line
+	10425 4350 10425 4050
+Wire Wire Line
+	10425 4050 10425 3725
+Connection ~ 10425 4050
+Wire Wire Line
+	10425 3725 10425 3400
+Connection ~ 10425 3725
+Wire Wire Line
+	10425 3400 10425 3025
+Wire Wire Line
+	10425 3025 10400 3025
+Connection ~ 10425 3400
+Wire Wire Line
+	11275 4350 11275 4050
+Wire Wire Line
+	11250 4050 11275 4050
+Wire Wire Line
+	11275 4050 11275 3725
+Connection ~ 11275 4050
+Wire Wire Line
+	11275 3400 11275 3725
+Connection ~ 11275 3725
+Wire Wire Line
+	11275 3400 11275 3050
+Connection ~ 11275 3400
+Wire Wire Line
+	15375 4350 15375 4050
+Wire Wire Line
+	15375 4050 15375 3750
+Connection ~ 15375 4050
+Wire Wire Line
+	15375 3750 15375 3425
+Connection ~ 15375 3750
+Wire Wire Line
+	15375 3425 15375 3000
+Connection ~ 15375 3425
+Wire Wire Line
+	16250 4350 16250 4050
+Wire Wire Line
+	16250 4050 16250 3750
+Connection ~ 16250 4050
+Wire Wire Line
+	16250 3750 16250 3425
+Connection ~ 16250 3750
+Wire Wire Line
+	16250 3425 16250 3000
+Connection ~ 16250 3425
+Wire Wire Line
+	17100 4350 17100 4050
+Wire Wire Line
+	17100 4050 17100 3750
+Connection ~ 17100 4050
+Wire Wire Line
+	17100 3750 17100 3425
+Connection ~ 17100 3750
+Wire Wire Line
+	17100 3425 17100 3025
+Connection ~ 17100 3425
+Wire Wire Line
+	17950 4050 17950 3750
+Wire Wire Line
+	17950 3750 17950 3425
+Connection ~ 17950 3750
+Wire Wire Line
+	17950 3425 17950 3050
+Connection ~ 17950 3425
+Wire Wire Line
+	18800 4050 18800 3750
+Wire Wire Line
+	18800 3750 18800 3425
+Connection ~ 18800 3750
+Wire Wire Line
+	18800 3425 18800 3025
+Connection ~ 18800 3425
+$Comp
+L Device:D_Small D19
+U 1 1 60C02C36
+P 14775 3525
+F 0 "D19" V 14821 3455 50  0000 R CNN
+F 1 "D_Small" V 14730 3455 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 14775 3525 50  0001 C CNN
+F 3 "~" V 14775 3525 50  0001 C CNN
+	1    14775 3525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D20
+U 1 1 60C0750F
+P 14775 3850
+F 0 "D20" V 14821 3780 50  0000 R CNN
+F 1 "D_Small" V 14730 3780 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 14775 3850 50  0001 C CNN
+F 3 "~" V 14775 3850 50  0001 C CNN
+	1    14775 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D21
+U 1 1 60C083B8
+P 14775 4150
+F 0 "D21" V 14821 4080 50  0000 R CNN
+F 1 "D_Small" V 14730 4080 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 14775 4150 50  0001 C CNN
+F 3 "~" V 14775 4150 50  0001 C CNN
+	1    14775 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D22
+U 1 1 60C091B2
+P 14775 4450
+F 0 "D22" V 14821 4380 50  0000 R CNN
+F 1 "D_Small" V 14730 4380 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 14775 4450 50  0001 C CNN
+F 3 "~" V 14775 4450 50  0001 C CNN
+	1    14775 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D23
+U 1 1 60C0B012
+P 15650 3525
+F 0 "D23" V 15696 3455 50  0000 R CNN
+F 1 "D_Small" V 15605 3455 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 15650 3525 50  0001 C CNN
+F 3 "~" V 15650 3525 50  0001 C CNN
+	1    15650 3525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D24
+U 1 1 60C0C2F8
+P 15650 3850
+F 0 "D24" V 15696 3780 50  0000 R CNN
+F 1 "D_Small" V 15605 3780 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 15650 3850 50  0001 C CNN
+F 3 "~" V 15650 3850 50  0001 C CNN
+	1    15650 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D25
+U 1 1 60C0D2EB
+P 15650 4150
+F 0 "D25" V 15696 4080 50  0000 R CNN
+F 1 "D_Small" V 15605 4080 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 15650 4150 50  0001 C CNN
+F 3 "~" V 15650 4150 50  0001 C CNN
+	1    15650 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D26
+U 1 1 60C0DE9C
+P 15650 4450
+F 0 "D26" V 15696 4380 50  0000 R CNN
+F 1 "D_Small" V 15605 4380 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 15650 4450 50  0001 C CNN
+F 3 "~" V 15650 4450 50  0001 C CNN
+	1    15650 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D27
+U 1 1 60C0EB8D
+P 16500 3525
+F 0 "D27" V 16546 3455 50  0000 R CNN
+F 1 "D_Small" V 16455 3455 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 16500 3525 50  0001 C CNN
+F 3 "~" V 16500 3525 50  0001 C CNN
+	1    16500 3525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D28
+U 1 1 60C0FB62
+P 16500 3850
+F 0 "D28" V 16546 3780 50  0000 R CNN
+F 1 "D_Small" V 16455 3780 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 16500 3850 50  0001 C CNN
+F 3 "~" V 16500 3850 50  0001 C CNN
+	1    16500 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D29
+U 1 1 60C10678
+P 16500 4150
+F 0 "D29" V 16546 4080 50  0000 R CNN
+F 1 "D_Small" V 16455 4080 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 16500 4150 50  0001 C CNN
+F 3 "~" V 16500 4150 50  0001 C CNN
+	1    16500 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D30
+U 1 1 60C1126A
+P 16500 4450
+F 0 "D30" V 16546 4380 50  0000 R CNN
+F 1 "D_Small" V 16455 4380 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 16500 4450 50  0001 C CNN
+F 3 "~" V 16500 4450 50  0001 C CNN
+	1    16500 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D31
+U 1 1 60C11D0D
+P 17350 3525
+F 0 "D31" V 17396 3455 50  0000 R CNN
+F 1 "D_Small" V 17305 3455 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 17350 3525 50  0001 C CNN
+F 3 "~" V 17350 3525 50  0001 C CNN
+	1    17350 3525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D32
+U 1 1 60C12E63
+P 17350 3850
+F 0 "D32" V 17396 3780 50  0000 R CNN
+F 1 "D_Small" V 17305 3780 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 17350 3850 50  0001 C CNN
+F 3 "~" V 17350 3850 50  0001 C CNN
+	1    17350 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D33
+U 1 1 60C13BE5
+P 17350 4150
+F 0 "D33" V 17396 4080 50  0000 R CNN
+F 1 "D_Small" V 17305 4080 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 17350 4150 50  0001 C CNN
+F 3 "~" V 17350 4150 50  0001 C CNN
+	1    17350 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D34
+U 1 1 60C145B6
+P 18200 3525
+F 0 "D34" V 18246 3455 50  0000 R CNN
+F 1 "D_Small" V 18155 3455 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 18200 3525 50  0001 C CNN
+F 3 "~" V 18200 3525 50  0001 C CNN
+	1    18200 3525
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D35
+U 1 1 60C160E4
+P 18200 3850
+F 0 "D35" V 18246 3780 50  0000 R CNN
+F 1 "D_Small" V 18155 3780 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 18200 3850 50  0001 C CNN
+F 3 "~" V 18200 3850 50  0001 C CNN
+	1    18200 3850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D36
+U 1 1 60C16DD0
+P 18200 4150
+F 0 "D36" V 18246 4080 50  0000 R CNN
+F 1 "D_Small" V 18155 4080 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 18200 4150 50  0001 C CNN
+F 3 "~" V 18200 4150 50  0001 C CNN
+	1    18200 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 60C18089
+P 7325 3500
+F 0 "D1" V 7371 3430 50  0000 R CNN
+F 1 "D_Small" V 7280 3430 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 7325 3500 50  0001 C CNN
+F 3 "~" V 7325 3500 50  0001 C CNN
+	1    7325 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D2
+U 1 1 60C19D2B
+P 7325 3825
+F 0 "D2" V 7371 3755 50  0000 R CNN
+F 1 "D_Small" V 7280 3755 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 7325 3825 50  0001 C CNN
+F 3 "~" V 7325 3825 50  0001 C CNN
+	1    7325 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D3
+U 1 1 60C1A9A9
+P 7325 4125
+F 0 "D3" V 7371 4055 50  0000 R CNN
+F 1 "D_Small" V 7280 4055 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 7325 4125 50  0001 C CNN
+F 3 "~" V 7325 4125 50  0001 C CNN
+	1    7325 4125
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D4
+U 1 1 60C1CC68
+P 8175 3500
+F 0 "D4" V 8221 3430 50  0000 R CNN
+F 1 "D_Small" V 8130 3430 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 8175 3500 50  0001 C CNN
+F 3 "~" V 8175 3500 50  0001 C CNN
+	1    8175 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D5
+U 1 1 60C1DDB9
+P 8175 3825
+F 0 "D5" V 8221 3755 50  0000 R CNN
+F 1 "D_Small" V 8130 3755 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 8175 3825 50  0001 C CNN
+F 3 "~" V 8175 3825 50  0001 C CNN
+	1    8175 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D6
+U 1 1 60C1ED43
+P 8175 4150
+F 0 "D6" V 8221 4080 50  0000 R CNN
+F 1 "D_Small" V 8130 4080 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 8175 4150 50  0001 C CNN
+F 3 "~" V 8175 4150 50  0001 C CNN
+	1    8175 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D7
+U 1 1 60C1FA6B
+P 9000 3500
+F 0 "D7" V 9046 3430 50  0000 R CNN
+F 1 "D_Small" V 8955 3430 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 9000 3500 50  0001 C CNN
+F 3 "~" V 9000 3500 50  0001 C CNN
+	1    9000 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D8
+U 1 1 60C20B8F
+P 9000 3825
+F 0 "D8" V 9046 3755 50  0000 R CNN
+F 1 "D_Small" V 8955 3755 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 9000 3825 50  0001 C CNN
+F 3 "~" V 9000 3825 50  0001 C CNN
+	1    9000 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D9
+U 1 1 60C217D6
+P 9000 4150
+F 0 "D9" V 9046 4080 50  0000 R CNN
+F 1 "D_Small" V 8955 4080 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 9000 4150 50  0001 C CNN
+F 3 "~" V 9000 4150 50  0001 C CNN
+	1    9000 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D10
+U 1 1 60C22625
+P 9000 4450
+F 0 "D10" V 9046 4380 50  0000 R CNN
+F 1 "D_Small" V 8955 4380 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 9000 4450 50  0001 C CNN
+F 3 "~" V 9000 4450 50  0001 C CNN
+	1    9000 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D11
+U 1 1 60C23041
+P 9825 3500
+F 0 "D11" V 9871 3430 50  0000 R CNN
+F 1 "D_Small" V 9780 3430 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 9825 3500 50  0001 C CNN
+F 3 "~" V 9825 3500 50  0001 C CNN
+	1    9825 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D12
+U 1 1 60C24F34
+P 9825 3825
+F 0 "D12" V 9871 3755 50  0000 R CNN
+F 1 "D_Small" V 9780 3755 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 9825 3825 50  0001 C CNN
+F 3 "~" V 9825 3825 50  0001 C CNN
+	1    9825 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D13
+U 1 1 60C25BA3
+P 9825 4150
+F 0 "D13" V 9871 4080 50  0000 R CNN
+F 1 "D_Small" V 9780 4080 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 9825 4150 50  0001 C CNN
+F 3 "~" V 9825 4150 50  0001 C CNN
+	1    9825 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D14
+U 1 1 60C26682
+P 9825 4450
+F 0 "D14" V 9871 4380 50  0000 R CNN
+F 1 "D_Small" V 9780 4380 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 9825 4450 50  0001 C CNN
+F 3 "~" V 9825 4450 50  0001 C CNN
+	1    9825 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D15
+U 1 1 60C276E3
+P 10675 3500
+F 0 "D15" V 10721 3430 50  0000 R CNN
+F 1 "D_Small" V 10630 3430 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 10675 3500 50  0001 C CNN
+F 3 "~" V 10675 3500 50  0001 C CNN
+	1    10675 3500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D16
+U 1 1 60C2833E
+P 10675 3825
+F 0 "D16" V 10721 3755 50  0000 R CNN
+F 1 "D_Small" V 10630 3755 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 10675 3825 50  0001 C CNN
+F 3 "~" V 10675 3825 50  0001 C CNN
+	1    10675 3825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D17
+U 1 1 60C28E22
+P 10675 4150
+F 0 "D17" V 10721 4080 50  0000 R CNN
+F 1 "D_Small" V 10630 4080 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 10675 4150 50  0001 C CNN
+F 3 "~" V 10675 4150 50  0001 C CNN
+	1    10675 4150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Small D18
+U 1 1 60C298F2
+P 10675 4450
+F 0 "D18" V 10721 4380 50  0000 R CNN
+F 1 "D_Small" V 10630 4380 50  0000 R CNN
+F 2 "keyboard_parts:D_SOD123" V 10675 4450 50  0001 C CNN
+F 3 "~" V 10675 4450 50  0001 C CNN
+	1    10675 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	10675 3600 9825 3600
+Wire Wire Line
+	9825 3600 9000 3600
+Connection ~ 9825 3600
+Wire Wire Line
+	9000 3600 8175 3600
+Connection ~ 9000 3600
+Wire Wire Line
+	8175 3600 7325 3600
+Connection ~ 8175 3600
+Wire Wire Line
+	7325 3925 8175 3925
+Wire Wire Line
+	8175 3925 9000 3925
+Connection ~ 8175 3925
+Wire Wire Line
+	9000 3925 9825 3925
+Connection ~ 9000 3925
+Wire Wire Line
+	9825 3925 10675 3925
+Connection ~ 9825 3925
+Wire Wire Line
+	10675 4250 9825 4250
+Wire Wire Line
+	9825 4250 9000 4250
+Connection ~ 9825 4250
+Wire Wire Line
+	9000 4250 8175 4250
+Connection ~ 9000 4250
+Wire Wire Line
+	8175 4250 7325 4250
+Wire Wire Line
+	7325 4250 7325 4225
+Connection ~ 8175 4250
+Wire Wire Line
+	10675 4550 9825 4550
+Wire Wire Line
+	9825 4550 9000 4550
+Connection ~ 9825 4550
+Wire Wire Line
+	8525 4550 9000 4550
+Connection ~ 9000 4550
+Wire Wire Line
+	7325 4250 7125 4250
+Connection ~ 7325 4250
+Wire Wire Line
+	7325 3925 7125 3925
+Connection ~ 7325 3925
+Wire Wire Line
+	7325 3600 7125 3600
+Connection ~ 7325 3600
+Wire Wire Line
+	18200 3625 17350 3625
+Wire Wire Line
+	17350 3625 16500 3625
+Connection ~ 17350 3625
+Wire Wire Line
+	16500 3625 15650 3625
+Connection ~ 16500 3625
+Wire Wire Line
+	15650 3625 14775 3625
+Connection ~ 15650 3625
+Wire Wire Line
+	14775 3625 14450 3625
+Connection ~ 14775 3625
+Wire Wire Line
+	18200 3950 17350 3950
+Wire Wire Line
+	17350 3950 16500 3950
+Connection ~ 17350 3950
+Wire Wire Line
+	16500 3950 15650 3950
+Connection ~ 16500 3950
+Wire Wire Line
+	15650 3950 14775 3950
+Connection ~ 15650 3950
+Wire Wire Line
+	14775 3950 14450 3950
+Connection ~ 14775 3950
+Wire Wire Line
+	18200 4250 17350 4250
+Wire Wire Line
+	17350 4250 16500 4250
+Connection ~ 17350 4250
+Wire Wire Line
+	16500 4250 15650 4250
+Connection ~ 16500 4250
+Wire Wire Line
+	15650 4250 14775 4250
+Connection ~ 15650 4250
+Wire Wire Line
+	16500 4550 15650 4550
+Wire Wire Line
+	15650 4550 14775 4550
+Connection ~ 15650 4550
+Wire Wire Line
+	14400 4550 14775 4550
+Connection ~ 14775 4550
+Wire Wire Line
+	10675 3600 11925 3600
+Connection ~ 10675 3600
+Wire Wire Line
+	10675 3925 11925 3925
+Connection ~ 10675 3925
+Wire Wire Line
+	10675 4250 11925 4250
+Connection ~ 10675 4250
+Wire Wire Line
+	10675 4550 11925 4550
+Connection ~ 10675 4550
+Wire Wire Line
+	14775 4250 14450 4250
+Connection ~ 14775 4250
+$Comp
+L Connector:DIN-5 J2
+U 1 1 60C6BF30
+P 13450 2850
+F 0 "J2" V 13404 2620 50  0000 R CNN
+F 1 "DIN-5" V 13495 2620 50  0000 R CNN
+F 2 "SDS-50J:CUI_SDS-50J" H 13450 2850 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 13450 2850 50  0001 C CNN
+	1    13450 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:DIN-5 J4
+U 1 1 60C6FE2D
+P 13450 1425
+F 0 "J4" V 13404 1195 50  0000 R CNN
+F 1 "DIN-5" V 13495 1195 50  0000 R CNN
+F 2 "SDS-50J:CUI_SDS-50J" H 13450 1425 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 13450 1425 50  0001 C CNN
+	1    13450 1425
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:DIN-5 J3
+U 1 1 60C72213
+P 12500 1425
+F 0 "J3" V 12546 1195 50  0000 R CNN
+F 1 "DIN-5" V 12455 1195 50  0000 R CNN
+F 2 "SDS-50J:CUI_SDS-50J" H 12500 1425 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 12500 1425 50  0001 C CNN
+	1    12500 1425
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:DIN-5 J1
+U 1 1 60C75B1A
+P 12525 2850
+F 0 "J1" V 12571 2620 50  0000 R CNN
+F 1 "DIN-5" V 12480 2620 50  0000 R CNN
+F 2 "SDS-50J:CUI_SDS-50J" H 12525 2850 50  0001 C CNN
+F 3 "http://www.mouser.com/ds/2/18/40_c091_abd_e-75918.pdf" H 12525 2850 50  0001 C CNN
+	1    12525 2850
+	0    -1   -1   0   
+$EndComp
+Text GLabel 14450 3625 0    50   Input ~ 0
+row0conR
+Text GLabel 11925 3600 2    50   Input ~ 0
+row0con
+Text GLabel 12625 3150 3    50   Input ~ 0
+row0con
+Text GLabel 13350 2550 1    50   Input ~ 0
+row0conR
+Text GLabel 11925 3925 2    50   Input ~ 0
+row1con
+Text GLabel 12425 3150 3    50   Input ~ 0
+row1con
+Text GLabel 13550 2550 1    50   Input ~ 0
+row1conR
+Text GLabel 14450 3950 0    50   Input ~ 0
+row1conR
+Text GLabel 11925 4250 2    50   Input ~ 0
+row2con
+Text GLabel 12225 2850 0    50   Input ~ 0
+row2con
+Text GLabel 14450 4250 0    50   Input ~ 0
+row2conR
+Text GLabel 13750 2850 2    50   Input ~ 0
+row2conR
+Text GLabel 11925 4550 2    50   Input ~ 0
+row3con
+Text GLabel 12425 2550 1    50   Input ~ 0
+row3con
+Text GLabel 14400 4550 0    50   Input ~ 0
+row3conR
+Text GLabel 15375 3000 1    50   Input ~ 0
+col5r
+Text GLabel 16250 3000 1    50   Input ~ 0
+col6r
+Text GLabel 17100 3025 1    50   Input ~ 0
+col7r
+Text GLabel 17950 3050 1    50   Input ~ 0
+col8r
+Text GLabel 18800 3025 1    50   Input ~ 0
+col9r
+Text GLabel 13550 3150 3    50   Input ~ 0
+row3conR
+Text GLabel 13350 1125 1    50   Input ~ 0
+col5r
+Text GLabel 13550 1125 1    50   Input ~ 0
+col6r
+Text GLabel 13750 1425 2    50   Input ~ 0
+col7r
+Text GLabel 13550 1725 3    50   Input ~ 0
+col8r
+Text GLabel 13350 1725 3    50   Input ~ 0
+col9r
+Text GLabel 7925 3025 1    50   Input ~ 0
+col0
+Text GLabel 8775 3025 1    50   Input ~ 0
+col1
+Text GLabel 9625 3025 1    50   Input ~ 0
+col2
+Text GLabel 10400 3025 1    50   Input ~ 0
+col3
+Text GLabel 11275 3050 1    50   Input ~ 0
+col4
+Text GLabel 12600 1125 1    50   Input ~ 0
+col9
+Text GLabel 12400 1125 1    50   Input ~ 0
+col8
+Text GLabel 12200 1425 0    50   Input ~ 0
+col7
+Text GLabel 12400 1725 3    50   Input ~ 0
+col6
+Text GLabel 12600 1725 3    50   Input ~ 0
+col5
+$Comp
+L foostan:SW_PUSH SW1
+U 1 1 60CD69AD
+P 7800 6350
+F 0 "SW1" H 7800 6605 50  0000 C CNN
+F 1 "SW_PUSH" H 7800 6514 50  0000 C CNN
+F 2 "kbd:ResetSW_1side" H 7800 6350 50  0001 C CNN
+F 3 "" H 7800 6350 50  0000 C CNN
+	1    7800 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8525 6350 8100 6350
+Wire Wire Line
+	7500 6350 7500 6450
+Wire Wire Line
+	7500 6450 8525 6450
+Text GLabel 7125 3600 0    50   Input ~ 0
+row0
+Text GLabel 7125 3925 0    50   Input ~ 0
+row1
+Text GLabel 7125 4250 0    50   Input ~ 0
+row2
+Text GLabel 8525 4550 0    50   Input ~ 0
+row3
+$Comp
+L foostan:OLED OL1
+U 1 1 60CE05AD
+P 11825 5975
+F 0 "OL1" H 12453 6044 51  0000 L CNN
+F 1 "OLED" H 12453 5954 47  0000 L CNN
+F 2 "kbd:OLED" H 11825 6075 60  0001 C CNN
+F 3 "" H 11825 6075 60  0001 C CNN
+	1    11825 5975
+	1    0    0    -1  
+$EndComp
+Text GLabel 9925 6150 2    50   Input ~ 0
+sda
+Text GLabel 11075 5725 0    50   Input ~ 0
+sda
+Text GLabel 11075 5875 0    50   Input ~ 0
+scl
+$Comp
+L power:VCC #PWR0101
+U 1 1 60CE4A9F
+P 11075 6025
+F 0 "#PWR0101" H 11075 5875 50  0001 C CNN
+F 1 "VCC" V 11090 6152 50  0000 L CNN
+F 2 "" H 11075 6025 50  0001 C CNN
+F 3 "" H 11075 6025 50  0001 C CNN
+	1    11075 6025
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 60CE53DA
+P 11075 6175
+F 0 "#PWR0102" H 11075 5925 50  0001 C CNN
+F 1 "GND" V 11080 6047 50  0000 R CNN
+F 2 "" H 11075 6175 50  0001 C CNN
+F 3 "" H 11075 6175 50  0001 C CNN
+	1    11075 6175
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 60CE54AD
+P 8525 6250
+F 0 "#PWR0103" H 8525 6100 50  0001 C CNN
+F 1 "VCC" V 8540 6377 50  0000 L CNN
+F 2 "" H 8525 6250 50  0001 C CNN
+F 3 "" H 8525 6250 50  0001 C CNN
+	1    8525 6250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0104
+U 1 1 60CE816B
+P 9925 6250
+F 0 "#PWR0104" H 9925 6000 50  0001 C CNN
+F 1 "GND" V 9930 6122 50  0000 R CNN
+F 2 "" H 9925 6250 50  0001 C CNN
+F 3 "" H 9925 6250 50  0001 C CNN
+	1    9925 6250
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9925 6050 2    50   Input ~ 0
+scl
+$Comp
+L Connector_Generic:Conn_02x04_Top_Bottom JADNS1
+U 1 1 60CF3595
+P 6475 5500
+F 0 "JADNS1" H 6525 5817 50  0000 C CNN
+F 1 "Conn_02x04_Top_Bottom" H 6525 5726 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Horizontal" H 6475 5500 50  0001 C CNN
+F 3 "~" H 6475 5500 50  0001 C CNN
+	1    6475 5500
+	1    0    0    -1  
+$EndComp
+Text GLabel 6775 5400 2    50   Input ~ 0
+ss
+Text GLabel 6775 5500 2    50   Input ~ 0
+mo
+Text GLabel 6775 5600 2    50   Input ~ 0
+sc
+Text GLabel 6775 5700 2    50   Input ~ 0
+mi
+Text GLabel 6275 5400 0    50   Input ~ 0
+mot
+$Comp
+L power:VCC #PWR0105
+U 1 1 60D00709
+P 6275 5700
+F 0 "#PWR0105" H 6275 5550 50  0001 C CNN
+F 1 "VCC" V 6290 5827 50  0000 L CNN
+F 2 "" H 6275 5700 50  0001 C CNN
+F 3 "" H 6275 5700 50  0001 C CNN
+	1    6275 5700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0106
+U 1 1 60D0881D
+P 6275 5500
+F 0 "#PWR0106" H 6275 5250 50  0001 C CNN
+F 1 "GND" V 6280 5372 50  0000 R CNN
+F 2 "" H 6275 5500 50  0001 C CNN
+F 3 "" H 6275 5500 50  0001 C CNN
+	1    6275 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0107
+U 1 1 60D0A3ED
+P 6275 5600
+F 0 "#PWR0107" H 6275 5350 50  0001 C CNN
+F 1 "GND" V 6280 5472 50  0000 R CNN
+F 2 "" H 6275 5600 50  0001 C CNN
+F 3 "" H 6275 5600 50  0001 C CNN
+	1    6275 5600
+	0    1    1    0   
+$EndComp
+Text GLabel 8525 5650 0    50   Input ~ 0
+mi
+Text GLabel 8525 5750 0    50   Input ~ 0
+mo
+Text GLabel 8525 5550 0    50   Input ~ 0
+mo
+Text GLabel 8525 5850 0    50   Input ~ 0
+ss
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 60D280FB
+P 6200 6000
+F 0 "H1" H 6300 6046 50  0000 L CNN
+F 1 "MountingHole" H 6300 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6200 6000 50  0001 C CNN
+F 3 "~" H 6200 6000 50  0001 C CNN
+	1    6200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 60D288C0
+P 6825 6000
+F 0 "H2" H 6925 6046 50  0000 L CNN
+F 1 "MountingHole" H 6925 5955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6825 6000 50  0001 C CNN
+F 3 "~" H 6825 6000 50  0001 C CNN
+	1    6825 6000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
